@@ -1,4 +1,4 @@
-const { sum } = require('.')
+const { sum, sub } = require('.')
 
 describe('math', () => {
   it('should add two numbers correctly', () => {
@@ -7,7 +7,7 @@ describe('math', () => {
   })
 
   it('should substract two numbers correctly', () => {
-    expect(sub(1,2)).toBe(3)
-    expect(sub(4,3)).toBe(7)
+    expect(sub(1,2)).toBe(1)
+    expect(sub(4,3)).toBe(-1)
   })
 })
