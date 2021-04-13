@@ -7,7 +7,7 @@ describe('math', () => {
   })
 
   it('should substract two numbers correctly', () => {
-    expect(sum(1,2)).toBe(3)
-    expect(sum(4,3)).toBe(7)
+    expect(sub(1,2)).toBe(3)
+    expect(sub(4,3)).toBe(7)
   })
 })
